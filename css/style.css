@@ -1,0 +1,96 @@
+/*******************************************************************************
+** BASE STYLES
+*******************************************************************************/
+body {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2em;
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  width: 95%;
+  position: fixed;
+  background-color: #fff;
+}
+
+/*******************************************************************************
+** Header
+*******************************************************************************/
+
+#header h1, #header h3 {
+  margin: 10px auto;
+}
+
+/*******************************************************************************
+** Nav
+*******************************************************************************/
+
+#main-nav {
+  background-color: black;
+  height: 80px;
+  padding: 10px 0 10px 10px;
+  text-align: center;
+}
+
+.navLink {
+  font-size: 1.5em;
+  margin-top: 0;
+  text-decoration: none;
+  color: lightgrey;
+  padding: 0 20px;
+}
+
+#main-nav .active {
+  color: red;
+}
+
+.navLink:nth-child(1n+2) {
+  border-left: thin solid lightgrey;
+}
+
+/*******************************************************************************
+** Content
+*******************************************************************************/
+
+#content {
+  padding-top: 295px;
+  font-size: 0.6em;
+}
+
+#josh {
+  border-radius: 10em;
+  border: 3px grey ridge;
+  height: 200px
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+/*******************************************************************************
+** Footer
+*******************************************************************************/
+
+footer {
+  text-align: center;
+  margin: 10px auto;
+}
+
+#social {
+  height: 80px;
+  padding: 10px 0 10px 10px;
+}
+
+.mediaLink {
+  padding: 0 80px;
+}
+
+.mediaLink, .mediaLink img {
+  height: 80px;
+  width: 80px;
+}
+
+#copy {
+  margin: 10px auto;
+  text-decoration: overline;
+}
