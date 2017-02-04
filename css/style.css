@@ -68,7 +68,8 @@ header {
 }
 
 abbr {
-  color: grey;
+  color: purple;
+  text-decoration: underline;
 }
 
 /*******************************************************************************
