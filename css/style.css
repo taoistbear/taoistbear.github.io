@@ -68,7 +68,12 @@ header {
 #sideNav {
   width: 120px;
   position: fixed;
-  padding-left: 80%;
+  margin-left: 80%;
+  border-left: grey solid;
+  background-color: lightgrey;
+  padding: 10px 20px 10px 0;
+  height: 100%;
+  z-index: -1;
 }
 
 #sideNav a {
@@ -76,7 +81,6 @@ header {
   text-decoration: none;
   color: black;
   display: block;
-  border-left: grey solid;
   padding-left: 20px;
 }
 
@@ -119,8 +123,11 @@ abbr {
 *******************************************************************************/
 
 footer {
+  height: 207px;
   text-align: center;
-  margin: 10px auto;
+  z-index: 1;
+  background-color: #fff;
+  padding-top: 10px;
 }
 
 #social {
