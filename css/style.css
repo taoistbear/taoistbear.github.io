@@ -58,6 +58,8 @@ header {
   font-size: 0.6em;
 }
 
+/* Content INTRO */
+
 #josh {
   border-radius: 10em;
   border: 3px grey ridge;
@@ -71,6 +73,12 @@ abbr {
   color: purple;
   text-decoration: underline;
 }
+
+/* Content BIO */
+
+/* Content INTRESTS */
+
+/* Content PROJECTS */
 
 /*******************************************************************************
 ** Footer
