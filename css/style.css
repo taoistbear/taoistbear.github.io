@@ -58,15 +58,21 @@ header {
   font-size: 0.6em;
 }
 
+.notes {
+  color: red;
+  font-style: bold;
+}
+
 /* Content SIDEBARNAV */
 
 #sideNav {
   width: 120px;
   position: fixed;
-  padding-left: 1020px;
+  padding-left: 80%;
 }
 
 #sideNav a {
+  font-size: 1.2em;
   text-decoration: none;
   color: black;
   display: block;
@@ -75,7 +81,7 @@ header {
 }
 
 #articles {
-  padding-right: 160px
+  padding-right: 20%;
 }
 
 .offset:before {
