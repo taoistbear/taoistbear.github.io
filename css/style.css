@@ -81,7 +81,7 @@ header {
   text-decoration: none;
   color: black;
   display: block;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 #sideNav a:nth-child(1n+2) {
