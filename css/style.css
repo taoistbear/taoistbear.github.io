@@ -81,7 +81,7 @@ header {
   text-decoration: none;
   color: black;
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
 
 #sideNav a:nth-child(1n+2) {
@@ -97,8 +97,8 @@ header {
 .offset:before {
   display: block;
   content: "";
-  height: 295px;
-  margin-top: -295px;
+  height: 245px;
+  margin-top: -245px;
   visibility: hidden;
 }
 
@@ -119,6 +119,10 @@ abbr {
 }
 
 /* Content BIO */
+
+article h2 {
+  text-decoration: underline;
+}
 
 /* Content INTRESTS */
 
